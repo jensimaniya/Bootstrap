@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.MainDiv{
+    height: 500px;
+    width: 100%;
+}
+
+.FirstDiv{
+    height: 400px;
+    width: 400px;
+}
+.SecondDiv{
+    height: 400px;
+    width: 400px;
+    bottom: 20%;
+    left: 30%;
+
+}

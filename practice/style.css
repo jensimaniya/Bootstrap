@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(167, 196, 245);
+}
+
+.baner{
+    background: url(./images/image2.jpg);
+    /* width: 100%; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
