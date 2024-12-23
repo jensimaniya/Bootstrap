@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 80px;
+    max-width: 1009%;
+    background-color: #FBB4A5;
+    gap:400px;
+}
