@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* cusomer review start */
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.swiper-slide {
+  text-align: center;
+  /* font-size: 18px; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 380px;
+  width: 1000px;
+  background-color: beige;
+  border-radius: 30px;
+  
+}
+.swiper-slide:hover{
+    border: 1px solid black;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+
+
+
+
+
+.SlidedIV1 {
+  height: 100px;
+  width: 300px;
+  
+
+}
+
+.SlideImg1 {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+   
+  border-radius: 50px;
+}
+.SlideImg1:hover{
+    border: 2px solid black;
+
+}
+
+.SliderDiv1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* customer rteview end */
+/* baner start */
+.img1{
+    height: 600px ;
+    width: 100% ;
+}
+/* baner end */
+/* header start */
+
+/* header end */
+
+

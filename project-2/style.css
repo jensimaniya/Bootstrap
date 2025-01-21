@@ -1,0 +1,567 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.baseLine {
+  background-image: url(./images/base_line.avif);
+  width: 100% !important;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.BaseLineHeade {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+}
+.BaseLineHeade:hover {
+  color: #4d4d4c;
+}
+.MainBanerDiv {
+  background-image: url(./images/main-slider.webp);
+  width: 100%;
+  position: relative;
+}
+.Font-Color {
+  color: #919190;
+  font-weight: 600;
+}
+.Font-Color:hover {
+  color: #5cb338;
+}
+
+.HeroBaner {
+  position: relative;
+}
+.BanerHead {
+  position: absolute;
+  top: -240px;
+  left: -70px;
+  color: azure;
+  font-size: 30px;
+}
+.BanerText {
+  position: absolute;
+  top: -150px;
+  left: -70px;
+  font-size: 35px;
+}
+.Sliderpre {
+  color: #f8f8f8;
+  font-size: 30px;
+  position: absolute;
+  top: -350%;
+}
+.Sliderpre1 {
+  color: #f8f8f8;
+  font-size: 30px;
+  position: absolute;
+  top: -500%;
+}
+.Sliderpre1:hover {
+  color: #5cb338;
+}
+
+.Sliderpre:hover {
+  color: #5cb338;
+}
+
+.Slider2pre {
+  color: #030303;
+  font-size: 30px;
+  position: absolute;
+  top: -450%;
+  right: 70px;
+}
+.Sliderpre2 {
+  color: #040404;
+  font-size: 30px;
+  position: absolute;
+  top: -350%;
+  right: 5px;
+}
+.Sliderpre2:hover {
+  color: #5cb338;
+}
+
+.Slider2pre:hover {
+  color: #5cb338;
+}
+
+.BTNShopNow1 {
+  background-color: #5cb338;
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  bottom: 70px;
+  left: 1px;
+  border: none;
+  color: #f5f3f2;
+}
+
+.BTNShopNow2 {
+  background-color: #5cb338;
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  bottom: 70px;
+  right: 80px;
+  border: none;
+}
+
+.icon {
+  font-size: 35px;
+}
+.serchBar {
+  border: 1px solid rgb(132, 217, 132);
+  width: 320px;
+  border-radius: 10px;
+}
+
+.Sec2-Div1 {
+  height: 200px;
+  width: 420px;
+  background-image: url(./images/image-1.avif);
+  background-size: cover;
+}
+
+.Sec2-Div2 {
+  height: 200px;
+  width: 420px;
+  background-image: url(./images/images-2.avif);
+  background-size: cover;
+}
+
+.Sec2-Div3 {
+  height: 200px;
+  width: 420px;
+  background-image: url(./images/images-3.avif);
+  background-size: cover;
+}
+
+.Div1BTN {
+  color: #5cb338;
+}
+
+.icon1 {
+  font-size: 30px;
+  color: #5cb338;
+}
+
+.contain1 {
+  color: #919190;
+}
+
+.head1 {
+  color: #5cb338;
+}
+
+.image {
+  border-radius: 100px;
+}
+
+.ab1 {
+  width: 62% !important;
+}
+
+.ab2 {
+  width: 33% !important;
+}
+
+.ImagesDiv {
+  background-image: url(./images/slider.webp);
+  height: 250px;
+  position: relative;
+}
+.Head-1 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  color: #5cb338;
+}
+.Head-2 {
+  position: absolute;
+  top: 38%;
+  left: 40%;
+  color: #5cb338;
+}
+.Head-3 {
+  position: absolute;
+  top: 58%;
+  left: 40%;
+  color: #5cb338;
+}
+
+.pre {
+  color: #5cb338;
+}
+
+.icon {
+  color: #5cb338;
+}
+.Div6Img1 {
+  border-radius: 100px;
+}
+
+.Mainbox:hover {
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+.Mainbox {
+  border: 1px solid rgb(216, 212, 212);
+}
+
+.BTNbox {
+  display: none;
+  height: 40px;
+  width: 220px;
+  background-color: #5cb338;
+}
+.BTNbox:hover {
+  background-color: rgb(240, 240, 57);
+}
+
+.Mainbox:hover {
+  .BTNbox {
+    display: block;
+  }
+}
+
+.ADDTObtn {
+  height: 40px;
+  width: 220px;
+  display: none;
+  border: none;
+  background-color: aliceblue;
+}
+
+.Mainbox:hover {
+  .ADDTObtn {
+    display: block;
+  }
+}
+
+.Sec6HeadingDiv {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 90px;
+  color: #5cb338;
+  font-size: 30px;
+}
+.Sec6HeadingDiv:hover {
+  color: #4d4d4c;
+}
+
+.MainContainer {
+  background-color: #f8f8f8;
+}
+
+.Div6Pre {
+  color: #5cb338;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Sec8Logo {
+  display: none;
+  font-size: 25px;
+  color: #5cb338;
+}
+
+.Sec8Div1:hover {
+  .Sec8Logo {
+    display: block;
+  }
+}
+
+.ADDTOBTN {
+  height: 40px;
+  width: 195px;
+  display: none;
+  border: none;
+  background-color: #5cb338;
+}
+/* .Sec8frontDiv{
+  height: 500px  !important;
+  box-sizing: border-box !important;
+}
+.Sec8Div1{
+  height: 400px !important;
+  width: 250px !important;
+  box-sizing: border-box !important;
+
+} */
+.Sec8Div1:hover {
+  .ADDTOBTN {
+    display: block;
+  }
+}
+
+.WishListBTN {
+  height: 40px;
+  width: 195px;
+  display: none;
+  border: none;
+  background-color: none;
+}
+.Sec8Div1:hover {
+  .WishListBTN {
+    display: block;
+  }
+}
+.HEAD {
+  color: #5cb338;
+  font-style: italic;
+}
+
+.Sec9MainDiv {
+  background-image: url(./images/slider.webp);
+  height: 450px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.FormDiv1 {
+  height: 50px;
+  width: 500px;
+  border: none;
+}
+
+.Form1Div1 {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.BtnSubscribe {
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: #5cb338;
+  color: azure;
+}
+.Form1Div2 {
+  display: flex;
+  align-items: center;
+}
+/* .sech1 {
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  top: 50px;
+  left: 650px;
+}
+.Sec9MainDiv {
+  position: relative;
+}
+
+.Sec9pre {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+span {
+  color: #5cb338;
+  font-weight: 900;
+} */
+
+/* cart pages style */
+.CartSec1 {
+  background-image: url(./images/main-slider.webp);
+  height: 200px;
+}
+
+.CartHead {
+  text-align: center;
+  padding-top: 50px;
+}
+.CartHead1 {
+  text-align: center;
+  font-size: 30px;
+  color: #5cb338;
+}
+
+.CartSec2Div {
+  background-color: #f5f3f2;
+  height: 100px;
+  border: 1px solid #5cb338;
+}
+
+.text-decoration-none:hover .dropdown-menu {
+  display: flex;
+}
+.Cart2Content {
+  background-color: #f5f3f2;
+}
+
+.FormInput {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.BTNproccess {
+  height: 50px;
+  width: 100%;
+  background-color: #5cb338;
+  color: white;
+  border: none;
+}
+
+.Sec10DIV1 {
+  background-image: url(./images/bg-images1.webp);
+  width: 50%;
+  padding: 30px;
+  background-repeat: no-repeat;
+}
+
+.Sec10DIV2 {
+  background-image: url(./images/bgimages2.webp);
+  padding: 30px;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.Sec10pre1 {
+  color: gray;
+}
+.Sec10pre2 {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+span {
+  color: #5cb338;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Sec10pre3 {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* section 11 start */
+
+.Sec11MainDiv {
+  background-color: rgb(249, 245, 245);
+}
+
+.Sec11Head {
+  color: black;
+}
+.Sec11Head:hover {
+  color: #5cb338;
+}
+
+/* section 11 end */
+/* section 12 start */
+
+/* section 12 end */
+
+/* footer start */
+.MainDivFooter {
+  height: 550px;
+}
+
+.FooterInfo1 {
+  line-height: 400%;
+}
+.FooterInfo {
+  line-height: 200%;
+}
+.FooterPre {
+  color: #5cb338;
+}
+
+.FooterLI {
+  color: white;
+}
+.FooterLI:hover {
+  color: #5cb338;
+}
+
+.FooterSocial {
+  color: white;
+}
+.FooterSocial:hover {
+  color: #5cb338;
+}
+
+/* footer end */
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 0.5s ease;
+}
+.image-container img:first-child {
+  opacity: 1;
+}
+.image-container img:last-child {
+  opacity: 0;
+}
+.image-container:hover img:first-child {
+  opacity: 0;
+}
+.image-container:hover img:last-child {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.Main{
+  height: 300px;
+}
+
+
+.hover-div {
+      width: 200px;
+      height: 250px;
+     
+      transition: all 0.3s ease; /* Smooth transition effect */
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Button style */
+    .hover-div button {
+      display: none; /* Button is hidden by default */
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px 20px;
+      background-color: #5cb338;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Hover effect */
+    .hover-div:hover {
+      height: 200px; /* Increase the height of the div */
+    }
+
+    .hover-div:hover button {
+      display: block; /* Show the button on hover */
+    }
+    

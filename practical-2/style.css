@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.BanerMainDiv {
+  background-image: url(./images/baner-1.jpg);
+  height: 100vh;
+  max-width: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.BannerInnerDiv {
+  background-color: rgba(72, 54, 42, 0.714);
+  height: 100vh;
+  max-width: 100%;
+}
+
+.IntroDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f7f2f1;
+  padding-top: 200px;
+}
+.Intro {
+  font-size: 50px;
+}
+
+.HrDiv {
+  height: 2px;
+  width: 100px;
+  background-color: #f4623a;
+  margin: auto;
+  margin-top: 20px;
+}
+.BanerPre {
+  color: #f7f2f1;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.BanerPre1 {
+  padding-top: 15px;
+}
+.BTNFindOutDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.FindOutButton {
+  height: 60px;
+  width: 180px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f4623a;
+  color: #f7f2f1;
+}
+
+/* header start */
+.header {
+  height: 80px;
+  max-width: 1009%;
+  color: #f7f2f1;
+  background-attachment: fixed;
+  gap: 400px;
+}
+
+/* header end */
+
+/* sectiom 1 start */
+
+.MainDivSec1 {
+  height: 450px;
+  max-width: 100%;
+  background-color: #f4623a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HrSec1 {
+  height: 2px;
+  width: 80px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.Sec1Head {
+  display: flex;
+  justify-content: center;
+  color: #f7f2f1;
+}
+
+.Sec1Pre {
+  display: flex;
+  justify-content: center;
+  color: #f7f2f1;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.BTNDivgetStarted {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.BTNgetStarted {
+  height: 60px;
+  width: 180px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f6f5f5;
+  color: #070707;
+  font-weight: 700;
+}
+
+/* section 1 end */
+
+/* section 2 start */
+
+.Sec2MainDiv {
+  max-width: 100%;
+  background-color: white;
+}
+
+.Sec2HeadDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+}
+
+.SEC2Hr {
+  height: 4px;
+  width: 80px;
+  background-color: #f4623a;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.Icon {
+  font-size: 45px;
+  color: #f4623a;
+}
+
+.DimondMainDiv {
+  text-align: center;
+}
+
+/* section 2 end */
+
+/* section 3 start */
+
+.Sec3BackImages {
+  background-image: url(./images/images-1.jpg);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.Sec3BackImages:hover {
+  .Bg-color {
+    background-color: #f76d46c3;
+    height: 350px;
+    width: 100%;
+  }
+}
+
+.Sec3Pre {
+  display: none;
+}
+
+.Sec3BackImages:hover {
+  .Sec3Pre {
+    display: block;
+  }
+}
+
+.Sec3Col1 {
+  padding-top: 130px;
+}
+
+.Sec3BackImages1 {
+  background-image: url(./images/images-2.jpg);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.Sec3BackImages1:hover {
+  .Bg-color {
+    background-color: #f76d46c3;
+    height: 350px;
+    width: 100%;
+  }
+}
+.Sec3Pre {
+  display: none;
+}
+
+.Sec3BackImages1:hover {
+  .Sec3Pre {
+    display: block;
+  }
+}
+
+.Sec3BackImages2 {
+  background-image: url(./images/images-3.jpg);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.Sec3Pre {
+  display: none;
+}
+
+.Sec3BackImages2:hover {
+  .Sec3Pre {
+    display: block;
+  }
+}
+
+.Sec3BackImages2:hover {
+  .Bg-color {
+    background-color: #f76d46c3;
+    height: 350px;
+    width: 100%;
+  }
+}
+
+.Sec3BackImages3 {
+  background-image: url(./images/images-4.jpg);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.Sec3BackImages3:hover {
+  .Bg-color {
+    background-color: #f76d46c3;
+    height: 350px;
+    width: 100%;
+  }
+}
+.Sec3Pre {
+  display: none;
+}
+
+.Sec3BackImages3:hover {
+  .Sec3Pre {
+    display: block;
+  }
+}
+
+.Sec3BackImages4 {
+  background-image: url(./images/images-5.jpg);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.Sec3BackImages4:hover {
+  .Bg-color {
+    background-color: #f76d46c3;
+    height: 350px;
+    width: 100%;
+  }
+}
+.Sec3Pre {
+  display: none;
+}
+
+.Sec3BackImages4:hover {
+  .Sec3Pre {
+    display: block;
+  }
+}
+
+.Sec3BackImages5 {
+  background-image: url(./images/images-6.jpg);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.Sec3BackImages5:hover {
+  .Bg-color {
+    background-color: #f76d46c3;
+    height: 350px;
+    width: 100%;
+  }
+}
+.Sec3Pre {
+  display: none;
+}
+
+.Sec3BackImages5:hover {
+  .Sec3Pre {
+    display: block;
+  }
+}
+
+/* section 3 end */
+
+/* section 4 start */
+
+.Sec4MainDiv{
+    background-color: #0e0d0dd2;
+    height: 500px;
+    max-width: 100%;
+}
+
+.Sec4Ineer{
+    padding-top: 200px;
+}
+
+.BTNdownLoad{
+    height: 60px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #f6f5f5;
+    color: #070707;
+    border: none;
+    font-weight: 600;
+
+}
+
+/* section 4 end */
+
+/* section 5 start */
+.FullName {
+  height: 55px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.Mail {
+  height: 55px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.PhNo {
+  height: 55px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.Msg {
+  height: 130px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.FormMainDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.BTNsubmit {
+  height: 55px;
+  width: 550px;
+  background-color: #f4623a;
+  border: none;
+  border-radius: 30px;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* section 5 end */
