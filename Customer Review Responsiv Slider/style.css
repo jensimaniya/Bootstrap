@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  /* height: 100%; */
+  height: 400px;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Img1 {
+  height: 100px;
+  width: 100px;
+}
+
+.Img {
+  border-radius: 100px;
+}
+
+/* header */
+
+.header {
+  height: 80px;
+  max-width: 1009%;
+  background-color: #fbb4a5;
+  gap: 400px;
+}
+/* form */
+
+.FullName {
+  height: 55px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.Mail {
+  height: 55px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.PhNo {
+  height: 55px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.Msg {
+  height: 130px;
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.FormMainDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.BTNsubmit {
+  height: 55px;
+  width: 550px;
+  background-color: #6b0606;
+  border: none;
+  border-radius: 30px;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+}
