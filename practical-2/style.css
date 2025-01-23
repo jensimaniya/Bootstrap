@@ -160,7 +160,7 @@
 
 .Sec3BackImages {
   background-image: url(./images/images-1.jpg);
-  height: 400px;
+  height: 350px;
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -168,7 +168,7 @@
 .Sec3BackImages:hover {
   .Bg-color {
     background-color: #f76d46c3;
-    height: 350px;
+    height: 400px;
     width: 100%;
   }
 }
@@ -307,25 +307,24 @@
 
 /* section 4 start */
 
-.Sec4MainDiv{
-    background-color: #0e0d0dd2;
-    height: 500px;
-    max-width: 100%;
+.Sec4MainDiv {
+  background-color: #0e0d0dd2;
+  height: 500px;
+  max-width: 100%;
 }
 
-.Sec4Ineer{
-    padding-top: 200px;
+.Sec4Ineer {
+  padding-top: 200px;
 }
 
-.BTNdownLoad{
-    height: 60px;
-    width: 180px;
-    border-radius: 30px;
-    background-color: #f6f5f5;
-    color: #070707;
-    border: none;
-    font-weight: 600;
-
+.BTNdownLoad {
+  height: 60px;
+  width: 180px;
+  border-radius: 30px;
+  background-color: #f6f5f5;
+  color: #070707;
+  border: none;
+  font-weight: 600;
 }
 
 /* section 4 end */
