@@ -256,7 +256,9 @@
 
 .MainContainer {
   background-color: #f8f8f8;
+  max-width: 96%;
 }
+
 
 .Div6Pre {
   color: #5cb338;
@@ -565,3 +567,20 @@ span {
       display: block; /* Show the button on hover */
     }
     
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5cb338;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a9a2a;
+}
